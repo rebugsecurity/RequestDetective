@@ -1,5 +1,5 @@
 # RequestDetective
-Detecting request smuggling in a web application typically involves analyzing the HTTP requests and looking for anomalies or suspicious patterns. Here's an example of a C program that can help detect request smuggling attacks
+Detecting request smuggling in a web application typically involves analyzing the HTTP requests and looking for anomalies or suspicious patterns. This is an example of a C program that can help detect request smuggling attacks
 
 # Full description of tool:
 In this program, we define a function `is_request_smuggling` that takes an HTTP request as input and checks for suspicious patterns in the request headers. It looks for the presence of both `Transfer-Encoding` and `Content-Length` headers, which could indicate a potential request smuggling attack.
